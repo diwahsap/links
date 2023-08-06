@@ -1,0 +1,27 @@
+# baseURL = "https://diwahsap.github.io/lynx"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Dimas's Links"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Dimas Wahyu Saputro"
+  headline = "Hi, i’m Dimas, a full-time learner!"
+  image = "img/me.jpeg"
+  links = [
+    { link = { href = "http://diwahsap.github.io/", text = "Dimas's Blog", target = "_self" } },
+    { github = "https://github.com/diwahsap" },
+    { instagram = "https://instagram.com/diwahsap" },
+    { linkedin = "https://linkedin.com/in/dimasws" },
+    { youtube = "https://youtube.com/@diwahsap" }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
